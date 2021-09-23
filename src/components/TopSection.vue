@@ -8,7 +8,7 @@
             br
             span.typed-words.text-primary
           p.main-body-text
-            | Centered around fully customizable spaces, Gather makes spending time with your communities just as easy as real life
+            | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro quasi ratione atque sit cumque officiis, ex explicabo quas tenetur iure rem laborum vel id a...
           .space32(v-if="$vuetify.breakpoint.width>959" )
           button.btn.bg-primary.btn-1.light Get Started
         v-col.col(cols="12" md="6")
@@ -24,7 +24,7 @@ export default {
   name: 'TopSection',
   mounted(){
     new Typed(".typed-words", {
-      strings: ["", "Gather", "work", "host events", "learn", "hang out"],
+      strings: ["", "Wake Up", "Eat", "Code", "Sleep"],
       typeSpeed: 111,
       backSpeed: 74,
       backDelay: 1600,

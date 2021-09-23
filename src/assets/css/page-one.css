@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 :root{
-  --clr-primary: #4358dc;
-  --clr-secondary: #06d6a0;
-  --clr-tertiary: #202540;
+  --clr-primary: rgb(48, 68, 194);
+  --clr-secondary: rgb(250, 183, 33);
+  --clr-tertiary: rgb(51, 51, 51);
 
-  --clr-primary-light: rgba(67, 88, 220, .22);
-  --clr-secondary-light: rgba(6, 214, 160,.22);
-  --clr-tertiary-light: rgba(32, 37, 64, .22)
+  --clr-primary-light: rgba(48, 68, 194, .22);
+  --clr-secondary-light: rgba(250, 183, 33, .22);
+  --clr-tertiary-light: rgba(51, 51, 51, .22)
 }
 .page-one{
   font-family: 'DM Sans', sans-serif;
