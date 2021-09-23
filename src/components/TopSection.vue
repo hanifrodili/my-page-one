@@ -1,6 +1,6 @@
 <template lang="pug">
   .top-section
-    div.section-90
+    div.section-90.mt-7
       v-row
         v-col.col(cols="12" md="6")
           .main-heading-text.mt-5
