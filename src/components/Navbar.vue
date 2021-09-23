@@ -1,10 +1,10 @@
 <template lang="pug">
-  v-app-bar.elevation-0(app color='#ffffff' light)
+  v-app-bar.elevation-0(app color='#ffffff' light height="fit-content" )
       div
         router-link(to="/" )
-          v-img(src="https://via.placeholder.com/90x40?text=Logo" contain max-width='120' alt='Logo')
+          v-img(src="https://ik.imagekit.io/hanifrodili/hnfrdl-logo_q3oRsruKtz.png?updatedAt=1632405972352" contain max-width='120' alt='Logo')
       v-spacer
-      div.d-flex(v-if='$vuetify.breakpoint.width > 500')
+      div.d-flex(v-if='$vuetify.breakpoint.width > 959')
         router-link(to='/')
           v-btn(large depressed text)
             span.mr-2 Menu 1
@@ -29,7 +29,7 @@
         router-link(to='#')
           v-btn(large depressed text)
             span.mr-2 Menu 3
-      v-menu(offset-y  left bottom v-if='$vuetify.breakpoint.width<=500' transition="slide-y-transition")
+      v-menu(offset-y  left bottom v-if='$vuetify.breakpoint.width<=959' transition="slide-y-transition")
         template(v-slot:activator='{ on, attrs }')
           v-btn(icon v-bind='attrs' v-on='on')
             v-icon mdi-menu

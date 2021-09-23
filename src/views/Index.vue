@@ -1,5 +1,5 @@
 <template lang="pug">
-  .gather
+  .page-one
     navbar
     top-section
     brand-banner
@@ -19,7 +19,7 @@ import SolutionsSection from '@/components/SolutionsSection.vue'
 import CtaBanner from '@/components/CtaBanner.vue'
 import MyFooter from '@/components/Footer.vue'
 export default {
-  name: "Gather",
+  name: "PageOne",
   components: {
     Navbar,
     TopSection,
@@ -33,5 +33,5 @@ export default {
 }
 </script>
 <style scoped>
- @import '../assets/css/gather.css';
+ @import '../assets/css/page-one.css';
 </style>

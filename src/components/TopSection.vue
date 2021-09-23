@@ -9,7 +9,7 @@
             span.typed-words.text-primary
           p.main-body-text
             | Centered around fully customizable spaces, Gather makes spending time with your communities just as easy as real life
-          .space32
+          .space32(v-if="$vuetify.breakpoint.width>959" )
           button.btn.bg-primary.btn-1.light Get Started
         v-col.col(cols="12" md="6")
           .media-container-1.ratio-6x4

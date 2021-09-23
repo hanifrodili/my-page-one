@@ -29,7 +29,7 @@
               a(href="#")
                 p.footer-item Link 9
         v-col(cols="12" md="4")
-          img.footer-logo(src='https://via.placeholder.com/800x300?text=Logo' width="100%"  alt='')
+          img.footer-logo(src='https://ik.imagekit.io/hanifrodili/hnfrdl-logo_q3oRsruKtz.png?updatedAt=1632405972352' width="100%"  alt='')
           v-row
             v-col.text-center(cols="3")
               a(href="#" )
